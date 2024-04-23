@@ -1,0 +1,123 @@
+:root {
+    --m-dark: #240250;
+    --m-mid: #7131FF;
+    --gold: #FFB800;
+    --lila: #A661FF;
+    --tifani: #14E9BA;
+    --white: #EAF4F5;
+    --whitetwo: #e9ebee;
+    --orange: #fe5000;
+} 
+.guardarbtn {
+    background-color: var(--orange);
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.366);
+    margin: 10px auto; 
+    display: block;
+}
+
+.guardarbtn:hover {
+    background-color: #ea6e01;
+}
+
+.editar {
+    font-size: 15px;
+    padding: 8px 16px;
+    background-color: var(--m-mid); 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.828);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Estilo para los botones de borrar */
+.borrar {
+    font-size: 15px;
+    padding: 8px 16px;
+    background-color: var(--m-dark); 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.828);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Cambiar color al pasar el mouse sobre los botones */
+.editar:hover,
+.borrar:hover {
+    opacity: 0.9;
+}
+.jsspan{
+    color: red;
+    font-size: 17px;
+    margin: 120px;
+    font-weight: 500;
+}
+
+
+/*--=============== CRUD ===============--*/
+.section-clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container-clock {
+    font-family: 'Orbitron', sans-serif; 
+    text-align: center;
+    align-items: center;
+    background: #fff; 
+    border-radius: 15px; 
+    padding: 50px; 
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3); 
+    color: #240250; 
+    width: 45%; 
+    margin: auto; 
+}
+
+.clock {
+    font-size: 70px; 
+}
+
+#Date {
+    font-size: 30px;
+}
+
+.section-clock .container-clock .clock ul{
+    list-style: none; 
+}
+
+.section-clock .container-clock .clock ul li{
+    display: inline; 
+    font-size: 80px; 
+    margin: 0 10px; 
+    text-shadow: 0px 0px 10px #A661FF; 
+}
+
+.selec-stock{
+    font-size: 15px;
+    padding: 5px;
+    height: 40px;
+    width: 200px;
+    margin-left: 2px;
+}
+.btn-stock {
+    background-color: var(--m-mid);
+    color: #fff;
+    font-size: 15px;
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.366);
+    margin-left: 20px;
+}
